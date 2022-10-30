@@ -52,7 +52,7 @@ namespace blogapp.Controllers {
             user.firstname = userDto.firstname;
             user.lastname = userDto.lastname;
             user.email = userDto.email;
-            user.uType = userDto.uType;
+            user.uType = 2;
             user.registerDate = DateTime.Now;
             
             CreatePasswordHash(userDto.password , out passwordHash, out passwordSalt);
@@ -84,11 +84,11 @@ namespace blogapp.Controllers {
           if(result){
             return Ok(user);
           }else{
-            return StatusCode(500, "Incorrect password");
+            return StatusCode(500, "Incorrect username or password");
           }
 
         }else{
-          return StatusCode(500, "User not found");
+          return StatusCode(500, "Incorrect username or password");
         }
         
       }catch(Exception e){

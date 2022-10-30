@@ -72,3 +72,6 @@
 /Users/oguzhan/Documents/GitHub/blogapp/blogapp/obj/Debug/net6.0/blogapp.pdb
 /Users/oguzhan/Documents/GitHub/blogapp/blogapp/obj/Debug/net6.0/blogapp.genruntimeconfig.cache
 /Users/oguzhan/Documents/GitHub/blogapp/blogapp/obj/Debug/net6.0/ref/blogapp.dll
+/Users/oguzhan/Documents/GitHub/blogapp/blogapp/bin/Debug/net6.0/ClientApp/package-lock.json
+/Users/oguzhan/Documents/GitHub/blogapp/blogapp/bin/Debug/net6.0/ClientApp/package.json
+/Users/oguzhan/Documents/GitHub/blogapp/blogapp/bin/Debug/net6.0/ClientApp/public/manifest.json
